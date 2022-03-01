@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  <title>My Portfolio</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!--font awesome css -->
+  <script src="https://kit.fontawesome.com/fa858c4ab1.js" crossorigin="anonymous"></script>
+  <!--aos css-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--aos js-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- custom css -->
+  <link href="css/custom.css" rel="stylesheet" type="text/css" media="screen">
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- INSERT HTML PAGE CONTENT HERE -->
+  <div class="container-fluid padding-0">
+    <!--Navigation starts-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light" id="main">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="Jessica Liu Logo" width="25" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mynav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Navigation ends-->
+    <div class="col-lg-12">
+      <h1 class="display-3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">My
+        <span style="color: #435b57">Portfolio</span>
+      </h1>
+    </div>
+  </div>
+  <br>
+  <!--Start Row 1-->
+  <div class="row" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+    <div class="col-lg-4">
+      <div class="card">
+        <img src="images/sa.png" class="card-img-top" alt="Story Analyzer" style="width:75%">
+        <div class="overlay">
+          <div class="text">
+            Story Analyzer
+          </div>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#firstModal">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card">
+        <img src="images/grocerygrab.png" class="card-img-top" alt="GroceryGrab App" style="width:75%">
+        <div class="overlay">
+          <div class="text">
+            GroceryGrab App
+          </div>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card">
+        <img src="images/collins.png" class="card-img-top" alt="Suzanne Collins Case Study" style="width:75%">
+        <div class="overlay">
+          <div class="text">
+            Suzanne Collins Case Study
+          </div>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#otherModal">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Row 1-->
+  <!--Start Row 2-->
+  <div class="row" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+    <div class="col-lg-4">
+      <div class="card">
+        <img src="images/mozweb.png" class="card-img-top" alt="Mozaic Dance Team Website" style="width:75%">
+        <div class="overlay">
+          <div class="text">
+            Mozaic Dance Team Website
+          </div>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#mozModal">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card">
+        <img src="images/retail.png" class="card-img-top" alt="Retail Website" style="width:75%">
+        <div class="overlay">
+          <div class="text">
+            Retail Website
+          </div>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#retailModal">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card">
+        <img src="images/beerwerks.png" class="card-img-top" alt="Beerwerks Trail Website" style="width:75%">
+        <div class="overlay">
+          <div class="text">
+            Beerwerks Trail Website
+          </div>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#beerModal">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Row 2-->
+  <!--Start Row 3-->
+  <div class="row" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+    <div class="col-lg-4">
+      <div class="card">
+        <img src="images/famvid.png" class="card-img-top" alt="FAM Senior Video 2019" style="width:75%">
+        <div class="overlay">
+          <div class="text">
+            FAM Senior Video 2019
+          </div>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#famModal">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card">
+        <img src="images/mozpromo.png" class="card-img-top" alt="Mozaic Dance Team 2019 Promo" style="width:75%">
+        <div class="overlay">
+          <div class="text">
+            Mozaic Auditions 2019 Promo
+          </div>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#promoModal">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card">
+        <img src="images/famlogo.png" class="card-img-top" alt="FAM Logo" style="width:75%">
+        <div class="overlay">
+          <div class="text">
+            FAM 2021 Logo
+          </div>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#logoModal">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Row 3-->
+  <!--Modal 1-->
+  <div class="modal fade" id="firstModal" tabindex="-1" aria-labelledby="firstModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/sa.png" style="width:90%; margin:20px">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6 style="margin-top:5px">Story Analyzer</h6>
+          <div class="summary">Semester long capstone collaborating with an agile team of developers and designers to
+            transform a client's website into a
+            more user-friendly application that aligns with user and client needs. Involves a feature that allows large
+            documents to be broken down into visualizations and the ability to upload stories, analyze stories, and
+            connect with other analyzers.
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://xd.adobe.com/view/8c291442-091d-454f-bb9d-a391194fef6d-d97a/?fullscreen" target="_blank"
+            class="btn btn-success">Prototype</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Modal 1-->
+  <!-- Modal 2 -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/grocerygrab.png" style="width:90%; margin:20px">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6 style="margin-top:5px">GroceryGrab App</h6>
+          <div class="summary">Semester long project creating a solution for JMU students living off-campus
+            with a grocery application that assists student issues in shopping and money management.
+            Conducted user research, usability tests, and produced low and high-fidelity prototypes with Adobe XD.</div>
+        </div>
+        <div class="modal-footer">
+          <a href="grocerygrab/finalreport.pdf" target="_blank" class="btn btn-danger">Final Report</a>
+          <a href="https://xd.adobe.com/view/02250b7a-8f87-4766-a51a-7c125ca7b350-5776/?fullscreen" target="_blank"
+            class="btn btn-success">Prototype</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Modal 2-->
+  <!--Modal 3-->
+  <div class="modal fade" id="otherModal" tabindex="-1" aria-labelledby="otherModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/collins.png" style="width:90%; margin:20px">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6 style="margin-top:5px">Suzanne Collins Case Study</h6>
+          <div class="summary">Month long class competition working with a hypothetical client as a design consultant to
+            redesign Suzanne Collins’ website by aligning with client needs and goals.
+            Provided users with a visual experience that
+            matched the look of the Hunger Games films, while highlighting book popularity and achievements.</div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://drive.google.com/file/d/1ka0wWudQiWf6_XLvoceVk4qtZsUAFkD4/view?usp=sharing" target="_blank"
+            class="btn btn-danger">Research</a>
+          <a href="https://jessicaliux.github.io/404casestudy/" target="_blank" class="btn btn-success">Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Modal 3-->
+  <!--Modal 4-->
+  <div class="modal fade" id="mozModal" tabindex="-1" aria-labelledby="mozModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/mozweb.png" style="width:90%; margin:20px">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6 style="margin-top:5px">Mozaic Dance Team Website</h6>
+          <div class="summary">Class assignment for Interactive Design for Web II (SMAD 308). Designed a responsive
+            website using Bootstrap for Mozaic Dance Team that allows
+            users easy access to information about the team and its events.
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://jessicaliux.github.io/bootstrap-mozaic/" target="_blank" class="btn btn-success">Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Modal 4-->
+  <!--Modal 5-->
+  <div class="modal fade" id="retailModal" tabindex="-1" aria-labelledby="retailModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/retail.png" style="width:90%; margin:20px">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6 style="margin-top:5px">Retail Website</h6>
+          <div class="summary">Class assignment for Interactive Design for Web I (SMAD 307). Designed a responsive
+            retail website using HTML and CSS
+            that provides affordable and sustainable jewelry for women.
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://jessicaliux.github.io/retail/" target="_blank" class="btn btn-success">Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Modal 5-->
+  <!--Modal 6-->
+  <div class="modal fade" id="beerModal" tabindex="-1" aria-labelledby="beerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/beerwerks.png" style="width:90%; margin:20px">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6 style="margin-top:5px">Beerwerks Trail Website</h6>
+          <div class="summary">Final project for Interactive Design for Web II (SMAD 308).
+            Collaborated with other SMAD students to create a responsive website using Bootstrap for Beerwerks Trail to
+            promote their breweries in the Shenandoah Valley and
+            provide easier access to their podcasts.</div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://jessicaliux.github.io/beerwerks-final-project/" target="_blank"
+            class="btn btn-success">Website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Modal 6-->
+  <!--Modal 7-->
+  <div class="modal fade" id="famModal" tabindex="-1" aria-labelledby="famModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/famvid.png" style="width:90%; margin:20px">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6 style="margin-top:5px">FAM Senior Video 2019</h6>
+          <div class="summary">Created a video montage of FAM's graduating class of 2019 using Final Cut Pro.
+            Scheduled appointments with 15 seniors and took charge of creative direction during a one month timespan.
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://www.youtube.com/watch?v=4L-p4Fn86RU" target="_blank" class="btn btn-success">Video</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Modal 7-->
+  <!--Modal 8-->
+  <div class="modal fade" id="promoModal" tabindex="-1" aria-labelledby="promoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/mozpromo.png" style="width:90%; margin:20px">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6 style="margin-top:5px">Mozaic Auditions 2019 Promo</h6>
+          <div class="summary">Created an auditions promo for Mozaic Dance Team using Final Cut Pro.
+            Advertised to incoming JMU freshman and underclassmen.</div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://www.youtube.com/watch?v=RcEF8rrVbCc" target="_blank" class="btn btn-success">Video</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Modal 8-->
+  <!--Modal 9-->
+  <div class="modal fade" id="logoModal" tabindex="-1" aria-labelledby="logoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <img src="images/famlogo.png" style="width:90%; margin:20px">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6 style="margin-top:5px">FAM 2021 Logo</h6>
+          <div class="summary">Collaborated with FAM to redesign a logo that integrates both Filipino culture and the
+            Shenandoah Valley.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Modal 9-->
+  <!--Start Footer-->
+  <footer id="sticky-footer" class="py-4 bg-dark text-white">
+    <br>
+    <br>
+    <br>
+    <div class="center">
+      <a href="https://www.linkedin.com/in/jessicaliu198/" target="_blank" style="color:white"><i
+          class="fab fa-linkedin"></i></a>
+    </div>
+    <br>
+    <p> © Jessica Liu 2021</p>
+  </footer>
+  <!--End Footer-->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!--initialize aos-->
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- Loading square for squar.red network -->
+  <div class="loader-wrapper">
+    <span class="loader"></span class="loader-inner"><span></span>
+  </div>
+
+  <script>
+    $(window).on("load", function () {
+      // $(".loader-wrapper").fadeOut("slow");
+      // $(".loader-wrapper").hide("fade");
+      $(".loader-wrapper").addClass("hidden");
+    });
+  </script>
+</body>
+
+</html>
